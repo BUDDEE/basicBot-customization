@@ -46,8 +46,8 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
-      language: "english",
+      botName: "Navio BOT",
+      language: "portuguese",
       chatLink: "https://rawgit.com/bscBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/bscBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
@@ -78,9 +78,9 @@
       usercommandsEnabled: true,
       skipPosition: 3,
       skipReasons: [
-      ["theme", "This song does not fit the room theme. "],
+      ["theme", "Livre. "],
       ["op", "This song is on the OP list. "],
-      ["history", "This song is in the history. "],
+      ["history", "Essa musica ja foi tocada. "],
       ["mix", "You played a mix, which is against the rules. "],
       ["sound", "The song you played had bad sound quality or no sound. "],
       ["nsfw", "The song you contained was NSFW (image or sound). "],
@@ -90,7 +90,7 @@
       afkRankCheck: "ambassador",
       motdEnabled: false,
       motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motd: "Oi o/",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
@@ -108,6 +108,8 @@
         NSFW: "https://rawgit.com/bscBot/custom/master/blacklists/NSFWlist.json",
         OP: "https://rawgit.com/bscBot/custom/master/blacklists/OPlist.json",
         BANNED: "https://rawgit.com/bscBot/custom/master/blacklists/BANNEDlist.json"
+      staffs: 
+        Staffs: "https://rawgit.com/BUDDEE/basicBot/master/Staffs.json"
       }
     }));
 
